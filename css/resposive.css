@@ -1,0 +1,62 @@
+@media screen and (max-width:767px) {
+  p{
+      text-align: unset;
+  }
+ 
+  .foot{
+    border-top-left-radius:150vw ;
+  }
+
+  .acordion,h1{
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 0;
+  }
+
+	.ratio{
+		 display: none;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.navbar-nav {
+		text-align: center;
+
+	}
+
+	.navbar-collapse {
+		background: #fff;
+	}
+
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+
+	.carousel-caption{
+			margin-top: 70px;
+			padding-bottom:0 ;
+			height: auto;
+	}
+
+	.carousel-caption h5 {
+		font-size: 65px;
+	}
+
+	.carousel-caption p {
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.bg-4{
+		height: auto;
+	}
+
+}
+
+
+
+
+
+
+

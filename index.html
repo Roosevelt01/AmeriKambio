@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- responsive -->
+  <!-- style -->
+  <link rel="stylesheet" href="css/resposive.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- cdn icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <!-- animate library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Amerikambio</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <style>
+    .bg-1 {
+      background-image: url(img/present.jpg);
+      
+      background-position: bottom center center;
+    }
+
+    .bg-2 {
+      background-image: url(img/caracas.webp);
+      background-position: center center;
+    }
+
+    .bg-3 {
+      background-image: url(img/laptop.jpg);
+      background-position: center 50%;
+    }
+
+    .bg-4 {
+      background-image: url(img/asian.jpg);
+      object-fit: contain;
+      background-position: center center;
+    }
+
+
+    .bg-1,
+    .bg-2,
+    .bg-3 {
+      object-fit: contain;
+      background-size: cover;
+    }
+
+    .pre-loader{
+      background: url(img/Loader1.gif)no-repeat center center;
+
+      background-size: 100%;
+      height: 50vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
+  </style>
+
+
+  <!-- linear-gradient(180deg,#000e2b 43%,#17232d) 
+      linear-gradient(84.48deg,#1e7ae6,#2fa5f1)
+
+      #011daa
+   -->
+
+
+  <header>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <img src="img/logo-2.png" class="img-fluid img" width="200" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#ask">Preguntas frecuentes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#method">Métodos de cambios</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <section id="home" class="pt-5">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-1">
+          <div class="carousel-caption">
+            <h5>¿Qué es Ameri<span class="text-primary">kambio</span>?</h5>
+            <p>Somos una casa de cambio con la que puedes enviar y recibir pagos de manera instantánea con bajas
+              comisiones. también ayudamos a los Freekancer venezolanos a que puedan recibir sus pagos de manera rápida y segura.</p>
+          </div>
+        </div>
+        <div class="carousel-item bg-2">
+          <div class="carousel-caption">
+            <h5>Garantía de devolución</h5>
+            <p>Si no logramos entregar tu dinero en Venezuela por alguna razón, te lo reembolsamos gratis y en menos de 24 horas!</p>
+          </div>
+        </div>
+        <div class="carousel-item bg-3">
+          <div class="carousel-caption">
+            <h5>Entrega Rápida</h5>
+            <p>Entregamos el dinero en Venezuela en menos de 24 horas una vez hecho el pago.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+  <section>
+    <div class="container py-5">
+      <div class="row">
+        <div class="prueba col-md-6" data-aos="fade-up" data-aos-duration="2000">
+          <h1 class="pb-4">Nuestros Servicios</h1>
+          <ul>
+            <li>
+              <p>Puedes cambiar tus PayPal y recibir bolívares en tu cuenta bancaria de manera inmediata.</p>
+            </li>
+            <li>
+              <p>Recibir remesas de tus familiares.</p>
+            </li>
+            <li>
+              <p>Puedes verificar tu cuenta paypal con una tarjeta de credito virtual.
+              </p>
+            </li>
+            <li>
+              <p>Puedes cambiar tus dólares Zelle a bolívares.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-flex p-3" data-aos="fade-up" data-aos-duration="2000">
+          <div class="ratio ratio-4x3 mx-auto shadow" style="height: 250px; width:454px;">
+            <video autoplay loop controls playsinline oncontextmenu="return false;"
+              preload="auto" id="miVideo">
+              <source src="woman-3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="py-4" style="background: linear-gradient(180deg,#000e2b 43%,#17232d);">
+    <div class="container">
+      <div class="row py-5">
+        <div class="container">
+          <div class="row g-4 text-white">
+            <div class="col-md-7 col-lg-10 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+              <div class="text-center">
+                <img src="img/isotipo-white.png" height="90" alt="">
+                <h3 class="">¿Quiénes somos?</h3>
+                <p class="" id="text-1">Somos un team de jóvenes Venezolanos comprometidos con el bienestar de sus
+                  usuarios, nuestro objetivo es ayudarte a luchar contra la hiperinflación y las altas comisiones del
+                  mercado.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+              <div class="">
+                <img src="img/icon-tracking.svg" alt="">
+                <h3 class="">Nuestro objetivo</h3>
+                <p class="m-3">
+                  Democratizar las finanzas, como empresa queremos lograr que todos tengan acceso al sistema
+                  financiero sin tantas trabas ni burocracias
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-6 justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+              <div class="">
+                <img src="img/icon-integration.svg" alt="">
+                <h3 class="">Nuestros valores</h3>
+                <p class="m-3">
+                  El cliente es lo más importante, nuestros usuarios lo son todo, estamos abocados a brindarles el
+                  mejor servicio posible.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-6 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+              <div class="">
+                <img src="img/icon-unlock.svg" alt="">
+                <h3 class="">Responsabilidad social</h3>
+                <p class="m-3">Somos una empresa con responsabilidad social activa, siempre estamos colaboramos con
+                  organizaciones sin fines de lucro que ayudan a personas en situación de calle, tratando de aportar
+                  nuestro granito de arena.</p>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-6 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+              <div class="">
+                <img src="img/icon-security.svg" alt="">
+                <h3 class="">Transparencia</h3>
+                <p class="m-3">Somos una empresa que se caracteriza por ser lo más transparente posible con el cliente
+                  ya que tenemos la firme conviccións el camino al que e éxito empresarial.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ask" class="section py-4">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6 p-2" data-aos="fade-up" data-aos-duration="2000">
+          <img src="img/man-2.jpg" class="img-fluid image shadow" alt="">
+        </div>
+        <div class="col-md-6 p-2" data-aos="fade-up" data-aos-duration="2000">
+          <div class="accordion" id="accordionExample">
+            <h1 class="mb-5">Preguntas Frecuentes</h1>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header mb-0" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Puedo enviarles PayPal y recibir bolívares en Venezuela?
+                  <span><i class="bi bi-arrow-down-circle"></i>
+                  </span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Si, es posible cambiar a tu moneda local los dólares que tienes en tu cuenta PayPal de manera segura
+                  y a la mejor tasa.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header mb-0" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Podré enviarles dinero a mis familiares?
+                  <span><i class="bi bi-arrow-down-circle"></i>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Puedes enviar remesas a países como Ecuador, Panamá, Colombia, Venezuela.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header mb-0" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Son una empresa registrada?
+                  <span><i class="bi bi-arrow-down-circle"></i>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Somos una empresa con talento venezolano en Estados Unidos y nuestra empresa está
+                  registrada en ese país.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel-inner bg-4" style="padding: 70px 0 60px;">
+    <div class="container-fluid d-flex justify-content-center text-white">
+      <div class="row text-center w-100" id="contenedor">
+        <div class="col-md-3 col-lg-3 p-3 m-0 d-flex flex-column index" data-aos="fade-up" data-aos-duration="2000">
+          <span></span>
+          <span class="seguidores">Reseñas Positivas</span>
+          <span class="cantidad">0</span>
+        </div>
+        <div class="col-md-3 p-3 m-0 d-flex flex-column index" data-aos="fade-up" data-aos-duration="2000">
+          <span></span>
+          <span class="seguidores">Número de cambios en el día</span>
+          <span class="cantidad">0</span>
+        </div>
+        <div class="col-md-3 p-3 m-0 d-flex flex-column index" data-aos="fade-up" data-aos-duration="2000">
+          <span></span>
+          <span class="seguidores">Cantidad de clientes registrados</span>
+          <span class="cantidad">0</span>
+        </div>
+        <div class="col-md-3 p-3 m-0 d-flex flex-column index" data-aos="fade-up" data-aos-duration="2000">
+          <span></span>
+          <span class="seguidores font-weight-bold">Cambio Promedio $</span>
+          <span class="cantidad">0</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- background: linear-gradient(84.48deg,#1e7ae6,#2fa5f1); -->
+
+  <section id="method" class="method py-5 content py-4">
+    <div class="container-fluid py-4">
+      <div class="col-md-5 mx-auto pb-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h2>¿Cuáles son los Métodos de cambios?</h2>
+        <p>Con Amerikambio podrás cambiar con los siguientes métodos</p>
+      </div>
+      <div class="row gy-4 d-flex justify-content-center">
+        <div class="col-md-5  col-lg-5 m-0" data-aos="fade-up" data-aos-duration="2000">
+          <div class="p-3 border rounded-3 shadow bg-light">
+            <img src="img/metodo-1.png" width="" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-5  col-lg-5 m-0" data-aos="fade-up" data-aos-duration="2000"">
+            <div class=" p-3 border rounded-3 shadow bg-light">
+          <img src="img/metodo-2.png" width="" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <div class="heading-title">
+            <h2 class="darkcolor">Reseñas</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div id="testimonial-slider" class="owl-carousel">
+            <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="">Recomendados al 100%. Excelente servicio, rápido y confiable</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/test-4.jpg"></div>
+                <h4 class="darkcolor">Jasmin Márquez</h4>
+                <small class="defaultcolor">Administración de Empresas</small>
+              </div>
+            </div>
+            <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Muy seguro y confiable, te realizan el pago en menos de 5 minutos.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/test-1.jpg"></div>
+                <h4 class="darkcolor">Anderson Carreño</h4>
+                <small class="defaultcolor">Diseñador Gráfico</small>
+              </div>
+            </div>
+            <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Al principio desconfiaba un poco del servicio, pero vi tantas reseñas que decidí
+                    intentarlo, quede muy contenta</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/test-5.jpg"></div>
+                <h4 class="darkcolor">Barbara Aguilar</h4>
+                <small class="defaultcolor">Modelo</small>
+              </div>
+            </div>
+            <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">La única casa de cambio confiable, no los cambio por nada. Gracias a ustedes estoy ayudando a mi familia en Venezuela.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/test-6.jpg"></div>
+                <h4 class="darkcolor">Samuel Sequera</h4>
+                <small class="defaultcolor">Freelancer</small>
+              </div>
+            </div>
+            <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Llevo 4 meses trabajando con ellos y siempre me han cumplido. los recomiendo al
+                    100%</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/test-3.jpg"></div>
+                <h4 class="darkcolor">Alejandro Martínez</h4>
+                <small class="defaultcolor">Web Developer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="py-5"
+    style="background: linear-gradient(180deg,#000e2b 43%,#17232d);border-top-left-radius: 10vw;">
+    <div class="container">
+      <div class="row gy-4 py-4 d-flex justify-content-center">
+        <div class="col-md-2">
+          <div class="p-0 text-center">
+            <img src="img/isotipo-white.png" data-aos="zoom-in" data-aos-duration="1500" height="90" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 text-white">
+          <div class="p-0" data-aos="zoom-in" data-aos-duration="1500">
+            <h4>Horarios</h4>
+            <p class="m-2">Somos una casa de cambio que trabaja 24h/7días</p>
+          </div>
+        </div>
+        <div class="col-md-2 text-white">
+          <div class="p-0" data-aos="zoom-in" data-aos-duration="1500">
+            <h4>Contacto</h4>
+            <a class="text-white m-2" style="text-decoration:none;"
+              href="https://api.whatsapp.com/send/?phone=19174731808&text&type=phone_number&app_absent=0"
+              target="_blank">+1 313 9360095</a>
+            <div class="pt-0">
+              <ul class="navbar-nav text-white m-2" style="display:flex;flex-direction:row; gap:15px">
+                <li><a class="nav-link text-white"
+                    href="https://api.whatsapp.com/send/?phone=19174731808&text&type=phone_number&app_absent=0"
+                    target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a class="nav-link text-white" href="https://www.facebook.com/profile.php?id=100082191910331"
+                    target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="nav-link text-white" href="https://www.instagram.com/amerikambio_ve/?hl=es-la"
+                    target="_blank"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-0 text-white" data-aos="zoom-in" data-aos-duration="1500">
+            <h3>Dirección</h3>
+            <p class="m-2">66 Flagler St 900 Miami, FL 33130-1807</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Bootstrap JS -->
+  <!--Testimonials Ends-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- Js animate -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+  <!-- owl-carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Video -->
+  <!-- Contandor -->
+  <script src="js/script2.js"></script>   
+<script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-white', 'shadow');
+      } else {
+        nav.classList.remove('shadow');
+      }
+    });
+  </script>
+  
+</body>
+
+</html>
